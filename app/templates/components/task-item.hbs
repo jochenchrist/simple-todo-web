@@ -1,0 +1,5 @@
+<div class="task">
+  {{input type="checkbox" change=(action 'markAsCompleted')}}
+  {{task.name}}
+  <a href="#" class="delete" onclick={{action 'delete'}}>Delete</a>
+</div>

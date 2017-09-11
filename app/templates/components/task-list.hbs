@@ -1,0 +1,7 @@
+<ul class="tasklist">
+  {{#each tasks as |task|}}
+    {{#unless task.checked}}
+      <li>{{task-item task=task deleteTask=(action 'deleteTask' task)}}</li>
+    {{/unless}}
+  {{/each}}
+</ul>

@@ -1,0 +1,21 @@
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.headline {
+  margin-top: 1em;
+}
+.tasklist {
+  margin-top: 1em;
+}
+
+.delete {
+  color: #ccc;
+  font-size: small;
+  display: none;
+}
+
+.task:hover .delete {
+  display: inline;
+}
