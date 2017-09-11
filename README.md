@@ -1,7 +1,6 @@
 # simple-todo-web
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Web application for a simple TODO list, written in EmberJS.
 
 ## Prerequisites
 
@@ -36,10 +35,13 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 * `ember build` (development)
 * `ember build --environment production` (production)
+* `docker build -t todo-web .`
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+docker run -d -p 80:80 --rm todo-web
+
+
 
 ## Further Reading / Useful Links
 
